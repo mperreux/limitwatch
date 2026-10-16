@@ -1,0 +1,6 @@
+[
+ {"date":"2026-10-15","vendor":"LimitWatch","change":"Initial dataset published."},
+ {"date":"2026-10-12","vendor":"Cursor","change":"New plans: Plus $8 (Grok-only), Premium $30; third-party models billed at API list price.","source":"https://getolune.com/vibe-coding/cursor-vs-claude-code-vs-codex"},
+ {"date":"2026-09-14","vendor":"Anthropic","change":"Claude Code weekly cap reduced ~17%; 5-hour limits unchanged.","source":"https://jaybutani.com/blog/ai-coding-tool-limits-september-2026"},
+ {"date":"2026-06-18","vendor":"Google","change":"Free Gemini CLI / Code Assist for individuals replaced by Antigravity.","source":"https://codeassist.google/"}
+]

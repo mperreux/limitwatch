@@ -1,0 +1,22 @@
+name: Watch source pages
+on:
+  schedule: [{cron: "0 13 * * *"}]   # daily 13:00 UTC (9 AM ET)
+  workflow_dispatch:
+permissions: {contents: read, issues: write}
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/cache/restore@v4
+        with: {path: snapshots, key: snapshots-${{ github.run_id }}, restore-keys: snapshots-}
+      - id: w
+        run: |
+          set +e; python3 watch.py > report.txt; echo "rc=$?" >> $GITHUB_OUTPUT; cat report.txt
+      - uses: actions/cache/save@v4
+        with: {path: snapshots, key: snapshots-${{ github.run_id }}}
+      - if: steps.w.outputs.rc == '1'
+        env: {GH_TOKEN: "${{ github.token }}"}
+        run: |
+          { echo "Source pages changed. Review and update plans.json / changelog.json by hand."; echo; echo '```diff'; head -c 60000 report.txt; echo '```'; } > body.md
+          gh issue create --title "Source change detected $(date -u +%F)" --body-file body.md

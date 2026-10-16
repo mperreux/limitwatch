@@ -1,0 +1,251 @@
+Claude Code, Codex and Cursor Limits in September 2026: What Changed and Which Limit Actually Bites — Jay Butani
+New
+ShotPop is live on the App Store — make every screenshot pop, in one tap.
+Download →
+Jay Butani
+Products
+Systems
+Writing
+About
+Light
+Book a call
+Products
+Systems
+About
+Writing
+Start a project →
+Light
+Writing
+/
+Building
+Claude Code, Codex and Cursor Limits in September 2026: What Changed and Which Limit Actually Bites
+Claude Code's weekly limits dropped about 17% on 14 September, as scheduled. How the caps on Claude Code, Codex and Cursor compare this month, which of the two Claude limits is the one that moved, and what to do when you hit it.
+Jay Butani
+13 September 2026
+Updated
+15 September 2026
+12
+min read
+2,370
+words
+In this piece
+What changed on September 14
+Three tools, three units of measure
+Side by side
+Which limit actually bites
+What to do when you hit a wall
+Matching the tool to the shape of the work
+Where this goes
+FAQ
+Share
+X
+LinkedIn
+WhatsApp
+Email
+Copy link
+Share…
+Claude Code's weekly limits went down on 14 September 2026. The temporary 50% boost that ran from 13 May ended at 11:59 PM PT on the 13th, and a permanent 25% increase over the old baseline replaced it; as of 14 September that is
+on Anthropic's own help centre
+, not just on X. If you are on Pro, Max 5x, Max 20x, Team or seat-based Enterprise, that works out to roughly 17% less weekly headroom than you had the week before.
+That is the news. The rest of this is what it sits inside. All three of the tools I keep hearing compared, Claude Code, Codex and Cursor, have changed how they meter usage this year, and they now do it in three different units. This post lays out where each stands as of today, why they are harder to compare than the pricing pages suggest, and which of the limits is the one that actually stops work. I will keep it current; there is a changelog at the bottom.
+The short version
+Claude Code meters by time: a rolling 5-hour window plus a weekly cap, and the weekly cap fell about 17% on 14 September while the 5-hour limits stayed where they are. Codex, through ChatGPT, meters by tokens sold as credits: Plus gets a rolling 5-hour allowance per model, Pro at $100 and $200 gets 5× and 20× that and is exempt from the 5-hour cap for now. Cursor meters by money: a monthly credit pool of about $20 on Pro, $70 on Pro+ and $400 on Ultra, with Auto mode effectively unlimited on paid plans.
+What changed on September 14
+Index the weekly limit at 100 for the period before May. On 13 May Anthropic switched on a temporary boost that took it to 150, and then kept extending it: the end date moved from 13 July to 19 July (
+reported at the time
+), to 19 August, to 31 August, and now to 13 September. It ended on schedule. Anthropic's
+help centre page for the promotion
+was rewritten on 14 September into the past tense: the boost ran from 13 May through 13 September 2026, 11:59 PM PT, and starting 14 September weekly limits in Claude Code are 25% higher than they were before the promotion. So the line settles at 125.
+Claude Code weekly limit indexed: 100 before 13 May 2026, 150 during the temporary boost from 13 May to 13 September, 125 from 14 September 2026
+BASELINE · TO 12 MAY 2026
+100
+TEMPORARY +50% · 13 MAY – 13 SEP 2026
+150
+PERMANENT +25% · FROM 14 SEP 2026
+125
+−17%
+WEEKLY LIMIT, INDEXED · 5-HOUR WINDOW UNCHANGED
+jaybutani.com
+Weekly limit, indexed. Baseline to 12 May, +50% boost to 13 September, +25% permanent from 14 September, confirmed on Anthropic's help centre the same day.
+Both of Anthropic's statements about this are correct, and they contradict each other only if you miss the reference point. The
+@ClaudeDevs announcement on 29 August
+framed it as a permanent 25% increase, measured against the pre-May baseline. The follow-up put the number at a 17% reduction, measured against what people have been using since May. 150 to 125 is a drop of one sixth. 100 to 125 is a rise of a quarter. Same event.
+One thing to be precise about, because most of the coverage was not. Until 14 September the permanent 25% figure existed only in the @ClaudeDevs posts of 29 August; the help centre said weekly limits would return to their standard levels and stopped there. On 14 September the help centre article was updated to say the 25% outright, so the figure is now on an Anthropic-owned page. The 17% is arithmetic from it. The pricing page and the general Claude Code usage documentation still did not carry the number when checked on 15 September; the promotion page is the only Anthropic source. The four prior extensions made a fifth a live possibility right up to the deadline. It did not happen.
+For anyone who signed up after 13 May, the second framing is the one that matches experience. You have never used the 100 line. You were on 150 all along, and from Monday you are on 125.
+The 5-hour limits are not touched by this change. That matters more than it sounds. The 5-hour window is the limit most people
+feel
+, because it is the one that stops a session mid-afternoon. Those limits were doubled permanently on 6 May for Pro, Max, Team and seat-based Enterprise, and peak-hour throttling was removed for Pro and Max at the same time. None of that is being walked back, and the help centre page says the same: five-hour limits are unaffected. What changed on the 14th is the weekly cap sitting on top, and the weekly cap is the one that can end your week on a Thursday.
+Anthropic's stated reason is compute. The boosted level was not something it could sustain permanently, so it is landing at a number it can. I have no view on that beyond noting it is the reason given. Two housekeeping points from the help centre page: free plans and consumption-based Enterprise seats were never in the promotion, so nothing changes for them, and there is no action for anyone else to take. Plans and billing stay as they are; only the allowance moves.
+One thing worth knowing about the shape of the allowance: Claude on the web, the desktop app, the mobile app and Claude Code all draw from the same subscription pool. A long chat in the desktop app is spending the same weekly budget as an agentic session in the terminal. API billing is separate and unaffected.
+Three tools, three units of measure
+The question I get asked is which of the three gives you the most. It does not have a clean answer, and the reason is more useful than any answer would be. The three tools sell usage in three different units.
+Claude Code sells you
+time windows
+. A rolling 5-hour session allowance, then a weekly cap on top of it. What you can do inside a window depends on the model and the size of the work, but the thing that resets is a clock. You plan around when it opens again.
+Codex, through ChatGPT, sells you
+token credits presented as messages
+. OpenAI moved Plus, Pro and Business off per-message limits and on to
+token-based credits
+on 2 April 2026, with the legacy Enterprise, Edu, Health and Gov plans following on 23 April. The structure is a rolling 5-hour allowance per model, with a weekly cap that may sit on top. Since 25 August the 5-hour cap
+applies to Plus on Codex and ChatGPT Work again
+; the $100 and $200 Pro plans are exempt for the coming months. The
+published numbers
+are ranges, not counts: on Plus, per 5-hour window, GPT-6 Astra 5–45, GPT-5.6 Sol 10–100, Terra 25–200, Luna 250–2,000. Pro 5x gives five times those figures and Pro 20x twenty times. The ranges are wide because spend is by tokens, so a heavy refactor across many files can cost around nine times what a light fix does. Two people on the same plan can have very different weeks.
+Cursor sells you a
+dollar-denominated pool
+. It shifted from request-based billing to a monthly credit pool in mid-2025. On the
+current pricing page
+, Pro at $20 a month carries a pool of about $20, Pro+ at $60 carries about $70, and Ultra at $200 carries about $400. In the account panel that pool shows as two meters rather than one:
+Cursor Models
+, which covers Cursor's own models including Grok and Composer, and
+Other Models
+, which covers everything else. Overflow from the first meter spills into the second; overflow from the second goes to on-demand spend, if you have turned it on. Auto mode is what decides how fast either meter moves. On paid plans Auto is effectively unlimited and does not draw the pool at full model price. The meters drop when you manually pick a premium model or turn on Max Mode. So the same $60 can last a month or a weekend, depending on how often you override the router, and on which meter the model you pick happens to bill against.
+Put those side by side and the question of which gives more dissolves. A clock, a token bucket and a wallet are not on the same axis. The only honest comparison is by workload: take the kind of work you actually do, run it on each, and see which one you hit first. The two sections after the table are about how to do that.
+Side by side
+Every figure below was checked on 12 September 2026 against the vendor's own pricing or support pages. Annual discounts: Claude Pro is $17 a month on annual, and Cursor takes 20% off paid plans on annual, so Pro is $16. I have not run Cursor Ultra or Codex Pro 20x; those rows are from published pricing, not experience.
+Plan
+Price
+Unit of allowance
+Resets
+Past the cap
+Claude Pro
+$20/mo ($17 annual)
+Time: rolling 5-hour window + weekly cap
+5-hour window rolls; weekly cap resets weekly
+Wait, or enable usage credits at API rates
+Claude Max 5x
+$100/mo
+Time, 5× Pro
+Same
+Same
+Claude Max 20x
+$200/mo
+Time, 20× Pro
+Same
+Same
+Claude Team
+$20/seat standard
+Time; shared pool with web, desktop and mobile
+Same
+Same
+Codex on Plus
+$20/mo
+Token credits: 5–45 Astra, 10–100 Sol, 25–200 Terra, 250–2,000 Luna per 5 hours
+Rolling 5-hour; weekly cap may apply
+Wait, buy credits if eligible, or run on your own API key
+Codex on Pro 5x
+$100/mo
+5× the Plus ranges
+5-hour cap exempt for the coming months
+Same
+Codex on Pro 20x
+$200/mo
+20× the Plus ranges
+5-hour cap exempt for the coming months
+Same
+Cursor Pro
+$20/mo ($16 annual)
+~$20 credit pool, shown as Cursor Models and Other Models meters; unlimited Tab and Auto
+Monthly
+Auto keeps working; premium picks and Max Mode stop unless on-demand spend is on
+Cursor Pro+
+$60/mo
+~$70 pool, 3× usage
+Monthly
+Same
+Cursor Ultra
+$200/mo
+~$400 pool, 20× usage, priority features
+Monthly
+Same
+Codex also has Free at $0, Go at $8 and Business at $25 per user monthly or $20 annual. Cursor has a free Hobby tier and Teams at $40 per user. Checked 12 September 2026.
+My Cursor Plan & Usage panel on Pro+, 12 September. The pool is shown as two meters: Cursor Models at 60%, Other Models at 100%. On-demand spending is off, so this is where it stops until 18 September.
+Which limit actually bites
+The two Claude Code limits fail in different ways, and most of the confusion about this change comes from not separating them.
+The five-hour window is the one people notice. It is short, it resets continuously, and you learn to work around it without really thinking about it: break off, do something else, come back. Anthropic doubled it in May and removed peak-hour throttling for Pro and Max at the same time, and it is not touched on 14 September.
+The weekly cap is the one that ruins a week. It does not refill until your reset, so hitting it on a Tuesday means the work stops until the weekend. This is the limit that moved, and it is why
+25% higher
+and
+17% lower
+are both accurate descriptions of the same change.
+/usage on 12 September, day 2 of a 7-day cycle resetting 17 September, captured under the +50% promotion. Session 10%, week 33%. The tool itself flags the promo end date. This cycle straddles the 14th; whether the new ceiling applies mid-cycle or from the next reset is not documented anywhere, and the changelog below will record what /usage did.
+The practical test: if your complaint is that you get interrupted a few times a day, 14 September changes nothing for you. If your complaint is that you run out by Wednesday, your ceiling drops. Run
+/usage
+and look at which of the two numbers you are actually close to before deciding whether to change plans. It also lists what has been driving the usage, which is usually long sessions at large context rather than the number of requests.
+What to do when you hit a wall
+Ordered by what it costs you, cheapest first.
+Run the routine passes on Cursor Auto.
+Renames, test scaffolding, formatting, the fourth pass over a view that already works. Auto does not draw the pool at full model price on a paid plan, so it is close to free at the margin. Keep manual premium model selection and Max Mode for the problems that are actually hard.
+Put Codex on your own API key when the subscription pool is dry.
+Codex can run against your key at standard token rates instead of the plan's credits. You pay for exactly what you use, and the 5-hour allowance stops being the thing that decides your afternoon.
+Enable Claude Code usage credits.
+Past the weekly cap you can either wait for the reset or turn on usage credits at API rates. Same model, same tool; it is metered differently for the rest of the week.
+Scope the work to the cheaper end.
+Smaller context, fewer files in scope, one problem per session. Let the agent finish a task rather than interrupting and restarting, because every restart re-reads the same context. On Codex, where spend is by tokens and a heavy refactor can cost around nine times a light fix, this is the difference between a plan lasting the week and not.
+Buy the tier you actually need.
+If you are hitting the weekly cap every week, the plan below the one you need is costing you more in lost hours than the upgrade would. Max 5x is $100 and Max 20x is $200. Compare that against a day and a half of not shipping.
+Matching the tool to the shape of the work
+These tools charge for different things, so the sensible split is by workload rather than by preference.
+Large-context work: iOS, or any strongly typed codebase.
+A single change reaches across a view model, its view, a coordinator and a couple of extensions. Context is the cost driver, so what matters is whether the tool holds the slice across turns instead of re-reading it. Time-window pricing suits this. You are paying for the session, not per token re-read, and a long session that stays inside one window costs the same whether it touched four files or forty.
+Many small files: most web work.
+Higher volume, lower difficulty per edit, and a lot of it mechanical. Cursor's Auto mode fits this exactly: effectively unlimited on paid plans, and it does not draw the credit pool at full model price. Saving manual model selection for the genuinely hard parts is the single biggest lever on a Cursor bill.
+Throwaway scripts.
+These should not touch a subscription allowance at all. Codex on your own API key bills at standard token rates with no included allowance in the way, which for a one-off is small change and leaves the weekly pool intact for the work that needs it.
+Where this goes
+There have been four structural changes to these limits in 2026 that I can count: Claude Code's 5-hour doubling on 6 May, the weekly boost on 13 May, Codex's 5-hour cap returning for Plus on 25 August, and the Claude Code weekly change on 14 September. That is before counting the four times the boost's end date moved. It would be surprising if that list were finished. I will update this post when it moves again; the changelog below records each edit, and the updated date at the top is real.
+I post the day-to-day of building on
+X
+. If the first 48 hours on the new caps look different from what I have written here, that is where it will show up first.
+FAQ
+Did Claude Code limits go down?
+Yes, from 14 September 2026. The temporary 50% weekly boost that ran from 13 May ended at 11:59 PM PT on 13 September. Anthropic's help centre, updated 14 September, says weekly limits in Claude Code are now 25% higher than they were before the promotion, which is about a 17% reduction against what users had since May. The 5-hour session limits are unchanged.
+What are the Codex limits on ChatGPT Plus?
+A rolling 5-hour allowance per model, published as ranges rather than counts: GPT-6 Astra 5–45, GPT-5.6 Sol 10–100, Terra 25–200 and Luna 250–2,000 per window. Spend is by tokens, so a large refactor uses far more of the range than a small fix. A weekly cap may sit on top.
+Does Cursor Auto mode use credits?
+Not at full model price. On paid plans Auto is effectively unlimited and does not draw the monthly pool the way a manually selected premium model does. The pool, shown in the account panel as a Cursor Models meter and an Other Models meter, drops when you pick a premium model by hand or turn on Max Mode.
+What happens when I hit the Claude Code weekly cap?
+You can wait for the weekly reset or enable usage credits, which bill at API rates for the rest of the period. The 5-hour window and the weekly cap are separate limits; you can be clear on one and blocked by the other.
+Are Claude Code and the Claude app on the same limit?
+Yes. Claude on the web, desktop and mobile and Claude Code all draw from the same subscription allowance. API usage is billed separately and was not affected by the 14 September change.
+Sources: Anthropic's help centre article
+Claude Code May–August 2026 weekly limits promotion
+, updated 1 September 2026, for the promo dates, the end time and the plans covered; the
+@ClaudeDevs post of 29 August 2026
+and its follow-up for the permanent 25% and the 17% figures; OpenAI's help centre on the
+Codex rate card
+and
+credits for flexible usage
+; the OpenAI Codex pricing page for the 5-hour ranges; and the
+Cursor pricing page
+. Reporting:
+9to5Mac
+on the Plus 5-hour cap, 24 August 2026;
+Mac Observer
+on the Claude Code weekly change;
+Help Net Security
+on the July extension. Screenshots are my own accounts, 12 September 2026.
+Changelog
+15 Sep 2026
+The promotion ended on schedule. Anthropic's help centre article was rewritten on 14 September into the past tense and now states the permanent 25% figure; the post no longer describes it as X-only. Scheduled language replaced with what happened. Still open: whether the weekly percentage moved mid-cycle or waits for the 17 September reset.
+13 Sep 2026
+Published.
+claude code usage limits
+codex limits
+cursor credits
+ai coding tools
+claude code weekly limit
+Share
+X
+LinkedIn
+WhatsApp
+Email
+Copy link
+Share…
+Written by
+Jay Butani
+Product builder from Surat. Ships his own apps, runs live broadcasts, and takes on a few founders a year for product, brand and growth.
+hey@jaybutani.com
+Next in the ledger
+iPhone Duo India Price and Everything Apple Announced
+Read →

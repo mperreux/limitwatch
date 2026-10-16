@@ -1,0 +1,761 @@
+Cursor vs Claude Code vs Codex: Plans and Limits (2026) · Olune
+Olune
+Niches
+Tools
+Guides
+Learn
+Glossary
+Verdicts
+Blog
+Business
+Sign in
+Test an idea
+☰
+Home
+/
+Vibe coding
+/
+Cursor vs Claude Code vs Codex
+Build: coding agents
+·
+Stage 3: build it
+Cursor vs Claude Code vs Codex: plans, usage limits and what happens at the limit
+Prices, usage meters and limit rules for the coding agents that work on code you own, read on each vendor's page on 2026-10-14. Cursor changed its plans for new customers on 2026-10-12, so check the date on any comparison you read.
+Updated
+14 October 2026
+Key takeaways
+Claude Code needs a paid Claude plan, and Pro at $20 a month is the entry. On Cursor's new plans, Claude and GPT are billed at API list price on top of the $30 Premium plan, and the $8 Plus plan runs Grok models only (as of October 2026).
+Codex comes with ChatGPT: quick tasks with GPT-6 Luna in the desktop app on Free and Go ($8), subject to rollout; the web, CLI, IDE extension and iOS from Plus ($20), which OpenAI pitches at a few focused coding sessions a week; Pro at $100, $200 or $500 currently has no 5-hour limit (as of October 2026).
+The meters differ. Claude Code uses a rolling 5-hour window plus weekly limits. Codex uses 5-hour windows on Plus (ChatGPT Pro currently has none), and OpenAI says weekly limits may also apply. Cursor's new plans use one weekly pool shared with Grok, and GitHub Copilot uses dollar credits that reset monthly.
+Existing Cursor subscribers keep their old plan, with its included third-party model usage, until they switch to The X Subscription. The switch is permanent.
+In the five threads we read (our summary, editorial), people pick on usage per dollar more than on quality, and many pay for two tools. Hosting, a database and email for your app are separate bills.
+Watch out
+Recent changes that make older comparisons wrong
+Cursor moved new customers to The X Subscription on 2026-10-12: a set of tiers that bundle Cursor with Grok and X features (Grok Bot from Premium up), with third-party models such as Claude and GPT billed separately. GPT-5.5 was scheduled to leave ChatGPT, ChatGPT Work and Codex on all plans on 2026-10-14, per OpenAI's pricing page checked 2026-10-14. The OpenAI API was not affected. Windsurf is now called Devin Desktop, and Cognition says plans and pricing did not change. Everything below was checked on vendor pages on 2026-10-14.
+[
+3
+]
+,
+[
+1
+]
+,
+[
+2
+]
+,
+[
+8
+]
+,
+[
+11
+]
+Plans side by side
+Monthly prices in USD, billed monthly, before tax, as of October 2026. Each row is a tool that works on code in your own repo. Browser builders that also host the app are compared on
+Lovable vs Bolt vs Replit
+.
+Plans side by side
+Tool
+Free
+Entry paid plan
+Higher plans
+Teams
+What the plan covers
+Cursor, The X Subscription (new customers)
+Limited agent and chat requests
+Plus $8: Grok models only
+Premium $30 (4x Plus usage), Super $100 (15x), Ultra $200 (50x)
+From $30 per user
+One usage pool shared with Grok, plus X features that depend on the tier. Premium and up add cloud agents, Grok Bot, and Claude, GPT and other third-party models at API list price.
+Cursor, legacy plans (existing customers)
+Not applicable
+Pro $20
+Pro Plus $60, Ultra $200
+Standard $40, Premium $120 per user
+Two monthly pools: Cursor models (Grok, Composer) and other models at API price. Kept until you switch.
+Claude Code (Claude plans)
+Not included
+Pro $20, or $17 a month billed annually
+Max 5x $100 and Max 20x $200, which include $100 or $200 a month of API credits
+Standard $25, Premium $125 per seat
+Claude Code in the terminal, IDE extensions (VS Code, Cursor, JetBrains), desktop, web and mobile. One limit shared with the Claude apps. Max API credits are for building on the Claude Platform. Heavy sessions can switch to pay-as-you-go API credits through a Console account.
+Codex (ChatGPT plans)
+Quick coding tasks with GPT-6 Luna in the desktop app, subject to rollout
+Go $8 for lightweight tasks; Plus $20 for Codex on web, CLI, IDE extension and iOS
+Pro $100, $200 or $500
+Business $25 per user, or $20 billed annually (2+ users)
+One allowance shared with ChatGPT Work. An API key works instead, at API prices, without cloud features.
+GitHub Copilot
+Limited chat and agent usage; 2,000 inline suggestions a month
+Pro $10, with $10 of AI credits plus a $5 flex allotment
+Pro+ $39 ($39 of credits plus $31 flex), Max $100 ($100 plus $100 flex). GitHub says flex allotments may change over time.
+Business and Enterprise; prices not on the plans page
+Unlimited completions on paid plans. Claude, GPT, Gemini and Grok models in chat and agent mode, paid from AI credits (top models such as Opus from Pro+). Handing tasks to the Claude or Codex agents from Pro+ (preview).
+Devin Desktop (formerly Windsurf)
+Light agent quota, limited models, unlimited Tab
+Pro $20
+Max $200
+$80 a month plus $40 per full seat
+Models from OpenAI, Anthropic and Google among others on Pro, plus cloud agents (Devin Cloud).
+Kiro
+50 credits
+Pro $20 (1,000 credits)
+Pro+ $40 (2,000), Pro Max $100 (5,000), Power $200 (10,000)
+Enterprise, contact sales
+Paid plans list Claude Sonnet 5 and Claude Opus 5. Free gets Claude Sonnet 4.5 and open-weight models.
+Google Antigravity
+Free for individuals, with basic weekly rate limits
+Google AI Pro (price not shown on the Antigravity page)
+Google AI Ultra (price not shown)
+From $30 per seat for eligible Gemini Enterprise customers on Google Cloud, or pay as you go
+Higher rate limits and an AI credit pool on Pro and Ultra.
+Prices checked on vendor pages 2026-10-14. Cursor changed its plans on 2026-10-12, so re-check the vendor page before you pay.
+[
+1
+]
+,
+[
+2
+]
+,
+[
+4
+]
+,
+[
+6
+]
+,
+[
+7
+]
+,
+[
+8
+]
+,
+[
+9
+]
+,
+[
+10
+]
+,
+[
+12
+]
+,
+[
+13
+]
+Which plan gets you which models
+If you already know which model family you want, start here. Prices as of October 2026.
+Which plan gets you which models
+If you want
+Free option
+Lowest paid option
+Other paid options
+Claude models in a coding agent
+Kiro Free includes Claude Sonnet 4.5 and Copilot Free includes Claude Haiku 4.5, both limited. Claude Code is not on Claude Free.
+Copilot Pro $10: Claude Sonnet and Haiku models in Copilot chat and agent mode, paid from its AI credits. Opus starts at Pro+ $39.
+$20 a month: Claude Pro (includes Claude Code), Kiro Pro or Devin Desktop Pro. Cursor Premium $30 plus Claude at API list price (Sonnet 5.5 lists at $2 per million input tokens and $10 per million output). Copilot Pro+ can hand tasks to Claude's agent (preview).
+OpenAI models in a coding agent
+ChatGPT Free: quick Codex tasks with GPT-6 Luna in the desktop app, subject to rollout. Copilot Free includes GPT-5 mini, limited.
+ChatGPT Go $8 for lightweight tasks. Plus $20 adds GPT-6.1 Sol and Codex in the CLI and IDE.
+Copilot Pro $10 (GPT-6 Luna and several GPT-5 models; GPT-6.1 Sol from Pro+), Kiro Pro $20 (GPT-5.6 models), Devin Desktop Pro $20. Cursor Premium $30 plus API list price. Copilot Pro+ $39 can hand tasks to Codex (preview).
+Grok models
+Cursor Free: limited agent and chat requests
+Cursor Plus $8 (Grok only)
+Every X Subscription tier draws on the same Grok pool. Copilot Pro $10 also lists Grok 4.5 to 4.7.
+Prices and per-plan model lists checked on vendor pages 2026-10-14. GitHub says Copilot model options may vary by feature.
+[
+6
+]
+,
+[
+12
+]
+,
+[
+10
+]
+,
+[
+1
+]
+,
+[
+9
+]
+,
+[
+8
+]
+How each one meters usage
+Each tool counts in its own unit, so a monthly price says little about how much work it buys. Our rule (editorial): do not convert these into a cost per app or per feature. No vendor publishes one, and we have none. As of October 2026.
+How each one meters usage
+Tool
+What it counts
+When it resets
+Shared with
+Cursor, X Subscription
+One usage pool: Premium is 4x Plus, Super 15x, Ultra 50x. Third-party models sit outside the pool and are billed per use at API list price from prepaid credit.
+Weekly
+Grok Chat, Imagine, Voice and Grok Bot. Grok API use is billed separately and does not draw from the pool.
+Cursor, legacy plans
+Two pools: Cursor models (Grok and Composer) and other models at each model's API price
+Monthly, with the billing cycle. Unused usage does not carry over.
+Cursor only
+Claude Code
+Usage limits. Max gives 5x or 20x the usage of Pro.
+Rolling 5-hour window, plus weekly limits on paid plans
+Claude on web, desktop and mobile: all draw from the same pool
+Codex
+Usage limits that depend on the model, the task size and local versus cloud work. OpenAI's estimate for Plus: 15 to 160 local messages per 5 hours on GPT-6.1 Sol, 350 to 3,000 on GPT-6 Luna. Estimates, not fixed limits.
+5-hour windows on Plus; Pro currently has no 5-hour limit. Weekly limits may apply.
+ChatGPT Work
+GitHub Copilot
+AI credits worth $0.01 each. Pro's $15 is 1,500 credits, Pro+'s $70 is 7,000, Max's $200 is 20,000. Completions and next edit suggestions use none. Totals include a flex allotment that GitHub says may change over time.
+Monthly
+Chat, agent mode, CLI, cloud agent and code review
+Devin Desktop
+An allowance. Cost per message varies with the model, task size and reasoning.
+Daily and weekly
+Not stated
+Kiro
+Credits. A simple prompt can cost under 1 credit, and the model you pick changes the rate.
+Start of each billing month; no rollover
+Kiro IDE, CLI and web
+Google Antigravity
+Rate limits, plus an AI credit pool on Google AI Pro and Ultra
+Weekly on the free tier
+Not stated
+Checked on vendor pages 2026-10-14. Copilot credit counts are our arithmetic: dollars divided by $0.01.
+[
+1
+]
+,
+[
+2
+]
+,
+[
+5
+]
+,
+[
+6
+]
+,
+[
+8
+]
+,
+[
+9
+]
+,
+[
+10
+]
+,
+[
+12
+]
+,
+[
+13
+]
+What happens when you hit the limit
+What each vendor says happens when the included usage runs out, as of October 2026.
+What happens when you hit the limit
+Tool
+When you run out
+Paying to keep going
+Cursor, X Subscription
+Wait for the weekly refresh. Remaining usage shows in settings.
+Top-offs. Third-party models draw on prepaid credit, and you can set spending caps.
+Cursor, legacy plans
+You get a notification in the editor.
+Turn on on-demand usage, billed at the same API rates, or upgrade. Cursor says on-demand requests are never downgraded in quality or speed.
+Claude Code
+Wait for the 5-hour or weekly reset, or upgrade.
+On paid plans, usage credits at standard API rates.
+Codex
+The turn in progress can finish, subject to fair use. Then wait for the reset.
+Plus and Pro can buy credits without upgrading. Business, Edu and Enterprise plans with flexible pricing buy workspace credits. API key use is billed at API rates.
+GitHub Copilot
+Wait for the monthly reset, or switch to a lighter model that uses fewer credits. On org plans without paid usage, Copilot pauses until the next cycle.
+Set a dollar budget: $10 buys 1,000 credits. Alerts fire at 75%, 90% and 100% of the budget.
+Devin Desktop
+The allowance refreshes daily and weekly.
+Extra usage at API pricing on paid plans.
+Kiro
+Usage resets at the start of each billing month.
+Add-on credits at $0.04 each on paid plans, expiring 12 months after purchase.
+Google Antigravity
+Not stated on the pricing page
+Spend caps are listed for business plans; nothing stated for individuals
+Checked on vendor pages 2026-10-14.
+[
+1
+]
+,
+[
+5
+]
+,
+[
+4
+]
+,
+[
+6
+]
+,
+[
+8
+]
+,
+[
+9
+]
+,
+[
+10
+]
+,
+[
+12
+]
+,
+[
+13
+]
+Check the idea before the first limit
+A limit hit in week one of an app nobody asked for is the expensive kind. Describe what you are about to build and who it is for. Olune scores it free, then a free sign-in runs the research: search demand, public Reddit threads found through Google, and competitors. You get Cook it, Sleep on it or Kill it, with the reasoning. 3 a day, no card.
+Your app idea
+Check this idea
+→
+Free score, no account. The research needs a free sign-in.
+Work out what you will actually pay
+Four steps, using the tables above. Prices as of October 2026.
+1
+Step
+1
+:
+List the models you use
+If Grok models are enough, Cursor Plus at $8 covers them. If you want Claude, Claude Pro at $20 includes it with Claude Code, GitHub Copilot Pro at $10 includes Claude Sonnet and Haiku models inside Copilot, paid from its monthly AI credits, and Cursor's new plans add Claude at API list price to a $30 plan. That Cursor plan fee alone is $10 more than Claude Pro before any Claude usage is billed. For scale (our arithmetic, not a session estimate): 1 million input tokens plus 100,000 output tokens of Sonnet 5.5 at list price is $2 plus $1, so $3. Cursor says you pay for exactly what you use, and you can set spending caps.
+[
+1
+]
+,
+[
+6
+]
+,
+[
+9
+]
+2
+Step
+2
+:
+Start on the cheapest plan that includes them, billed monthly
+Annual billing saves money on a plan you keep. Claude Pro billed annually is $200 up front against $240 for 12 months at $20, a saving of $40. Our call (editorial): pay monthly for the first month while plans keep moving. Cursor changed its plans on 2026-10-12, and OpenAI scheduled GPT-5.5 to leave Codex on 2026-10-14.
+[
+6
+]
+,
+[
+3
+]
+,
+[
+8
+]
+3
+Step
+3
+:
+Run one normal week, then read the meter
+Cursor shows remaining usage in settings, and OpenAI points Codex users to a usage dashboard. Note the day you hit a limit, if you do, and which model you were using.
+[
+1
+]
+,
+[
+8
+]
+4
+Step
+4
+:
+Price the overflow before the next tier
+If you run out late in the week, compare the next tier with paying for extra usage: top-offs on Cursor, usage credits at API rates on Claude, ChatGPT credits on Codex, a dollar budget on Copilot, add-on credits on Kiro. If you run out early every week, the next tier is usually the one to price (editorial).
+[
+1
+]
+,
+[
+6
+]
+,
+[
+8
+]
+,
+[
+9
+]
+,
+[
+12
+]
+What people who use them say
+Our summary of five public threads (editorial). These are opinions from people who chose to post, not a survey, and they date fast.
+Usage per dollar decides more often than quality
+.
+In a
+77-comment r/codex thread
+from August 2026, many replies chose on how much usage each subscription gives for the money. One said a Sol model can use up the Plus plan's weekly quota in a day. Others kept Claude for front-end and design work and Codex for the codebase.
+[
+14
+]
+Many pay for two and split the work
+.
+In an
+Ask HN thread from July 2026
+, several people run both Claude Code and Codex, send each task to the one they trust for it, and have one review the other's work. Reasons given for Codex: usage limits and closer instruction-following. Reasons given for Claude: context handling and longer runs on its own.
+[
+15
+]
+Rankings expire with each model
+.
+On
+Hacker News in December 2025
+(104 points), commenters said the better tool flips as new models ship, and one called usage limits the real reason many pick Codex, with a reply saying the limits for Opus on Claude's entry plan are very low. A commenter in the r/codex thread put it this way: "For every comment saying one thing, someone else says the exact opposite!"
+[
+16
+]
+,
+[
+14
+]
+Spend ranges from nothing to hundreds a month
+.
+Answers to an
+August 2026 Ask HN on monthly AI spend
+run from nothing (local models), through a single entry plan, to several hundred dollars a month, some paid by employers. Too spread out to average.
+[
+17
+]
+Cursor's change is too new to judge
+.
+In the
+2026-10-12 forum announcement
+and a
+r/cursor thread
+the next day, users asked how Premium compares with the old Pro and Pro Plus plans, objected to losing included third-party usage, and split on the move from monthly to weekly resets.
+[
+3
+]
+,
+[
+18
+]
+Our call: which fits which way of working
+Editorial, written for a solo builder using AI coding tools, with no audience yet, building in evenings and weekends. Each item matches a way of working. We do not rank the tools: the threads above show rankings flip with each model release. Prices as of October 2026.
+You want Claude models in a terminal or editor
+.
+Start on Claude Pro at $20. Anthropic describes Pro as "Perfect for short coding sprints in small codebases" and Max 5x ($100) as suited to larger codebases. Move up after a week where the 5-hour window, not your own time, ended the session.
+[
+7
+]
+,
+[
+6
+]
+You already pay for ChatGPT
+.
+Try Codex before buying anything new. It is on Plus at $20 and, for lighter tasks with GPT-6 Luna, on Go at $8 and on Free, subject to rollout.
+[
+8
+]
+You want an AI editor and are open to Grok models
+.
+Cursor Plus at $8 runs Grok only. Premium at $30 adds cloud agents and lets you use Claude or GPT, billed by usage at API list price. Set a spending cap before your first third-party request.
+[
+1
+]
+You are on an old Cursor plan and mostly use Claude or GPT in it
+.
+Your plan keeps its included third-party usage until you switch, and the switch cannot be undone. Before switching, price a normal month of your third-party usage at API list price.
+[
+2
+]
+,
+[
+3
+]
+,
+[
+4
+]
+You work in GitHub and want the cheapest paid seat
+.
+Copilot Pro at $10 gives unlimited completions, plus Claude Sonnet, GPT, Gemini and Grok models in Copilot's own chat and agent mode, paid from a monthly AI credit allowance. Opus models, and handing whole tasks to the Claude or Codex agents (in preview), need Pro+ at $39.
+[
+9
+]
+You want two tools
+.
+Price both before the second subscription. Claude Pro plus ChatGPT Plus is $20 + $20 = $40 a month. Claude Pro plus Cursor Premium is $20 + $30 = $50, before any third-party model use inside Cursor.
+[
+6
+]
+,
+[
+8
+]
+,
+[
+1
+]
+Whichever you pick, write the spec where it reads
+.
+Claude Code, Cursor, Codex, Devin Desktop and GitHub Copilot each read a standing instructions file, such as CLAUDE.md or AGENTS.md. See
+where each tool reads your PRD
+.
+Tip
+You still need somewhere to run the app
+Cursor, Claude Code and Codex edit code you own, and the app still has to run somewhere. Cursor's Premium plan lists "code hosting via Origin", and the pricing page does not say it runs your app. OpenAI's pricing page lists a feature called Sites, in public beta on eligible ChatGPT plans, which we have not tested. Otherwise, plan for a host, a database and email as separate bills, priced in
+what a vibe-coded app costs to run
+. For tools that build and host in one place, see
+Lovable vs Bolt vs Replit
+.
+[
+1
+]
+,
+[
+8
+]
+Pick the tool after you know the app is worth building
+A subscription pays for the building. It cannot tell you whether anyone wants what you build. Describe the app and who would pay for it: Olune scores it free, then a free sign-in checks search demand, public Reddit threads found through Google, and competitors, and returns Cook it, Sleep on it or Kill it with the reasoning. It is AI-assisted and can vary between runs, and it does not check code. Kill is a normal answer, and it comes with pivots instead of a Build Kit. See
+what Olune checks and what it cannot
+.
+Your app idea
+Check this idea
+→
+Free score, no account. The research needs a free sign-in.
+Common questions
+Is Claude Code or Cursor cheaper?
++
+For Claude models, Claude Code is the cheaper way in for a new customer: Claude Pro costs $20 a month with Claude Code usage included, while Cursor's new plans bill Claude at API list price on top of the $30 Premium plan (as of October 2026). If Grok models are enough, Cursor Plus at $8 is cheaper. Existing Cursor Pro subscribers at $20 keep an included pool for third-party models until they switch. Outside both, GitHub Copilot Pro at $10 includes Claude Sonnet and Haiku models in Copilot, paid from its monthly AI credits.
+What is the X Subscription?
++
+The X Subscription is the set of plans Cursor has sold to new customers since 2026-10-12, bundling Cursor with Grok and X features. Tiers are Free, Plus $8, Premium $30, Super $100 and Ultra $200 a month, with Teams from $30 per user, and usage comes from one pool shared with Grok that refreshes weekly. Cursor's pricing page says it is sold through X Subscription Corp.
+Can I use Claude in Cursor on the new plans?
++
+Yes, on Premium and above, billed at API list price from the first use and paid from prepaid credit, with optional spending caps. Plus runs Grok models only. Existing plans keep their included third-party usage until you switch.
+What is the difference in cost between Claude Code and Codex?
++
+On the entry plans most people compare there is none: Claude Pro and ChatGPT Plus both cost $20 a month (as of October 2026). Codex also runs in a lighter form on ChatGPT Go ($8) and Free, while Claude Code needs a paid plan. At the top, Claude Max costs $100 or $200 and ChatGPT Pro $100, $200 or $500. Claude meters on a rolling 5-hour window plus weekly limits on paid plans. OpenAI gives 5-hour estimates for Plus, says ChatGPT Pro currently has no 5-hour limit, and says weekly limits may also apply.
+Does Claude Code come with the free plan?
++
+No. Claude Free does not include Claude Code; it starts with Pro at $20 a month, or $17 a month billed annually (as of October 2026).
+What happens when I hit the Claude Code usage limit?
++
+You wait for the 5-hour or weekly reset, upgrade, or on a paid plan buy usage credits at standard API rates. The limit is shared with Claude on web, desktop and mobile, so chat use counts against it too.
+Does Cursor still have a $20 plan?
++
+Only for existing subscribers. Cursor's pricing page lists only The X Subscription plans, and its docs still describe Pro at $20, Pro Plus at $60 and Ultra at $200, which existing customers keep unless they switch or cancel (as of October 2026).
+Sources
+Each number in brackets on this page points here. Prices and limits change; the date is when we read the page.
+[
+1
+]
+Cursor, Pricing (The X Subscription plans)
+· accessed
+14 October 2026
+[
+2
+]
+Cursor Help, What is The X Subscription
+· accessed
+14 October 2026
+[
+3
+]
+Cursor Forum, "Introducing The X Subscription" (staff announcement, 2026-10-12)
+· accessed
+14 October 2026
+[
+4
+]
+Cursor Docs, Models and Pricing (plans for existing customers)
+· accessed
+14 October 2026
+[
+5
+]
+Cursor Help, Usage and limits
+· accessed
+14 October 2026
+[
+6
+]
+Anthropic, Claude pricing
+· accessed
+14 October 2026
+[
+7
+]
+Anthropic, Claude Code
+· accessed
+14 October 2026
+[
+8
+]
+OpenAI, ChatGPT and Codex pricing and usage limits
+· accessed
+14 October 2026
+[
+9
+]
+GitHub, Copilot plans and AI credits
+· accessed
+14 October 2026
+[
+10
+]
+Cognition, Devin plans and pricing
+· accessed
+14 October 2026
+[
+11
+]
+Cognition, Devin Desktop (FAQ: the new name for Windsurf)
+· accessed
+14 October 2026
+[
+12
+]
+Kiro, Pricing
+· accessed
+14 October 2026
+[
+13
+]
+Google Antigravity, Pricing
+· accessed
+14 October 2026
+[
+14
+]
+r/codex, "Claude vs. Codex: what's currently better for coding?" (2026-08-16, 77 comments)
+· accessed
+14 October 2026
+[
+15
+]
+Hacker News, "Ask HN: Claude Code or Codex?" (2026-07-21, 33 comments)
+· accessed
+14 October 2026
+[
+16
+]
+Hacker News, "Codex vs. Claude Code (today)" (2025-12-26, 104 points, 100 comments)
+· accessed
+14 October 2026
+[
+17
+]
+Hacker News, "Ask HN: How much money do you spend monthly on subscriptions for AI models?" (2026-08-13, 41 comments)
+· accessed
+14 October 2026
+[
+18
+]
+r/cursor, "Cursor is now part of the X subscription" (2026-10-13)
+· accessed
+13 October 2026
+← Previous
+Lovable vs Bolt vs Replit vs v0 vs Base44
+Next →
+What a vibe-coded app costs to build and run
+Read next
+Stage 3: build it
+Lovable vs Bolt vs Replit vs v0 vs Base44
+Stage 3: build it
+What a vibe-coded app costs to build and run
+Stage 3: build it
+How to write a PRD for vibe coding
+Stage 4: ship and find users
+Before you launch a vibe-coded app: data, keys, backups
+Part of
+the vibe coding guide
+: what to check before, during and after the build.
+On this page
+Plans side by side
+Which plan gets you which models
+How each one meters usage
+What happens when you hit the limit
+Work out what you will actually pay
+What people who use them say
+Our call: which fits which way of working
+Questions
+Sources
+Check your app idea
+Free score, no account. The research runs after a free sign-in.
+Startup ideas, weekly,
+with the honest numbers.
+One short letter a week: ideas worth a look and one piece of validation advice you can use the same day. Free, unsubscribe anytime.
+Email address
+Join free
+Email me the weekly letter. Unsubscribe with one click, any time.
+Olune
+Pressure-test a startup idea before you build it: search demand, public complaints and competitors, then an honest verdict.
+hello@getolune.com
+Also from us
+Uttarakhand Hub
+Product
+Test an idea
+Pricing
+Olune for Business
+Work with us
+The Build Kit
+Free resources
+Validate by niche
+Find your idea
+Vibe coding
+Founder archetype
+Startup costs
+Tools
+Guides
+Courses
+Glossary
+Verdict Library
+Built with Olune
+Startup ideas
+Answers
+Compare
+Blog
+Company
+About
+How we research
+Contact
+Privacy Policy
+Terms & Conditions
+Cookie settings
+Connect
+X / Twitter
+LinkedIn
+Email
+©
+2026
+Olune. All rights reserved.
+Anyone can build now. Build the right thing.

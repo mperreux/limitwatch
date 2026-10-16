@@ -1,0 +1,18 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LimitWatch: AI coding plans and limits, compared</title><link rel="stylesheet" href="style.css">
+<header><h1>LimitWatch</h1><nav><a href="index.html">Compare</a><a href="changelog.html">Changelog</a></nav></header>
+<p>Every AI coding plan: price, how usage is metered, limits, resets and what happens when you run out. Each row links to its source. <span class="muted" id="checked"></span></p>
+<div class="signup"><b>Get an email when a limit changes.</b><br><form onsubmit="alert('Newsletter coming soon');return false"><input type="email" placeholder="you@example.com" required> <button>Notify me</button></form><span class="muted">Placeholder. Not connected to any service yet.</span></div>
+<input id="q" placeholder="Filter (e.g. weekly, Copilot)">
+<table id="t"><thead><tr><th data-k="vendor">Vendor</th><th data-k="product">Product</th><th data-k="plan">Plan</th><th data-k="price_usd_month">$/mo</th><th data-k="metering">Metering</th><th data-k="limits">Limits</th><th data-k="reset">Reset</th><th data-k="overage">Past the cap</th><th>Source</th></tr></thead><tbody></tbody></table>
+<p class="muted" id="gaps"></p>
+<script>
+let rows=[],key='price_usd_month',asc=true;
+const esc=s=>String(s??'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+function render(){const q=document.getElementById('q').value.toLowerCase();
+ const r=rows.filter(p=>JSON.stringify(p).toLowerCase().includes(q)).sort((a,b)=>{let x=a[key],y=b[key];return (typeof x=='number'?x-y:String(x).localeCompare(y))*(asc?1:-1)});
+ document.querySelector('#t tbody').innerHTML=r.map(p=>`<tr><td>${esc(p.vendor)}</td><td>${esc(p.product)}</td><td>${esc(p.plan)}</td><td>$${p.price_usd_month}<div class="muted">${esc(p.price_note)}</div></td><td>${esc(p.metering)}</td><td>${esc(p.limits)}</td><td>${esc(p.reset)}</td><td>${esc(p.overage)}</td><td>${p.source.split(' ; ').map(u=>`<a href="${esc(u)}">link</a>`).join(' ')}<div class="muted">${p.checked}</div></td></tr>`).join('')}
+document.querySelectorAll('th[data-k]').forEach(th=>th.onclick=()=>{asc=key==th.dataset.k?!asc:true;key=th.dataset.k;render()});
+document.getElementById('q').oninput=render;
+fetch('plans.json').then(r=>r.json()).then(d=>{rows=d.plans;document.getElementById('checked').textContent='Data checked '+d.checked+'.';document.getElementById('gaps').innerHTML='<b>Known gaps:</b> '+d.gaps.map(esc).join(' · ');render()});
+</script></html>

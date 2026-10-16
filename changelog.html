@@ -1,0 +1,4 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>LimitWatch changelog</title><link rel="stylesheet" href="style.css">
+<header><h1>LimitWatch</h1><nav><a href="index.html">Compare</a><a href="changelog.html">Changelog</a></nav></header>
+<h2>Changelog</h2><table><thead><tr><th>Date</th><th>Vendor</th><th>Change</th><th>Source</th></tr></thead><tbody id="c"></tbody></table>
+<script>fetch('changelog.json').then(r=>r.json()).then(d=>{document.getElementById('c').innerHTML=d.map(e=>`<tr><td>${e.date}</td><td>${e.vendor}</td><td>${e.change}</td><td>${e.source?`<a href="${e.source}">link</a>`:''}</td></tr>`).join('')})</script></html>
